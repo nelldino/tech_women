@@ -10,5 +10,73 @@ body{
     width: 100vw;
     height: 100vh;
     background: #484848;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.title {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 32px;
+}
+
+.info{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px;
+    padding:2px;
+    margin: 32px ;
+
+}
+
+.magicball_outer{
+    width: 500px;
+    height: 500px;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+    box-shadow:  24px 24px 47px #A9A9A9, -24px -24px 47px #535252;
+    position: relative;
+}
+
+.magicball_inner {
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magicball_response{
+    text-align: center;
+    font-size: 150px;
+    color: #000;
+}
+.magicball_spotlight{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 5px;
+    border-radius: 50%;
+    background:#333;
+    opacity:0.2 ;
+}
+.magicball_bg_shadow{
+    position: absolute;
+    width: 425px;
+    height: 425px;
+    top: 0px;
+    border-radius: 50%;
+    background: #aaa;
+    opacity: 0.01;
 }
